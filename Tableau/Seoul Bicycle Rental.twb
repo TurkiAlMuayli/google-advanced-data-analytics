@@ -1,0 +1,781 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0819.2015                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='d206dfb88125185822a3f8c5ec53855ebdafc4448330145e69be32ea6ec129db' _.fcp.WorkbookFingerprinting.true...creator-author-id='d206dfb88125185822a3f8c5ec53855ebdafc4448330145e69be32ea6ec129db' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='d206dfb88125185822a3f8c5ec53855ebdafc4448330145e69be32ea6ec129db' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='d206dfb88125185822a3f8c5ec53855ebdafc4448330145e69be32ea6ec129db' original-version='18.1' source-build='2026.2.2 (20262.26.0819.2015)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Seoul bicycle rental dataset (_JqBwOEaS_a37dYNVftzmw_0b1c1cafa639423e9342b5f2640999f1_Seoul-bicycle-rental-dataset)' inline='true' name='federated.1vcqrbj06mnbls191oa9x1nkmy6h' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='_JqBwOEaS_a37dYNVftzmw_0b1c1cafa639423e9342b5f2640999f1_Seoul-bicycle-rental-dataset' name='excel-direct.18hovwo0568u8t1307jvs19221l2'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Turki/Downloads/_JqBwOEaS_a37dYNVftzmw_0b1c1cafa639423e9342b5f2640999f1_Seoul-bicycle-rental-dataset.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.18hovwo0568u8t1307jvs19221l2' name='Seoul bicycle rental dataset' table='[&apos;Seoul bicycle rental dataset$&apos;]' type='table'>
+          <columns gridOrigin='A1:N8761:no:A1:N8761:0' header='yes' outcome='2'>
+            <column datatype='date' date-parse-format='dd/MM/yyyy' name='Date' ordinal='0' />
+            <column datatype='integer' name='Rented Bike Count' ordinal='1' />
+            <column datatype='integer' name='Hour' ordinal='2' />
+            <column datatype='real' name='Temperature(蚓)' ordinal='3' />
+            <column datatype='integer' name='Humidity(%)' ordinal='4' />
+            <column datatype='real' name='Wind speed (m/s)' ordinal='5' />
+            <column datatype='integer' name='Visibility (10m)' ordinal='6' />
+            <column datatype='real' name='Dew point temperature(蚓)' ordinal='7' />
+            <column datatype='real' name='Solar Radiation (MJ/m2)' ordinal='8' />
+            <column datatype='real' name='Rainfall(mm)' ordinal='9' />
+            <column datatype='real' name='Snowfall (cm)' ordinal='10' />
+            <column datatype='string' name='Seasons' ordinal='11' />
+            <column datatype='string' name='Holiday' ordinal='12' />
+            <column datatype='string' name='Functioning Day' ordinal='13' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Seoul bicycle rental dataset]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:N8761:no:A1:N8761:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Seoul bicycle rental dataset]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rented Bike Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rented Bike Count]</local-name>
+            <parent-name>[Seoul bicycle rental dataset]</parent-name>
+            <remote-alias>Rented Bike Count</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hour</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hour]</local-name>
+            <parent-name>[Seoul bicycle rental dataset]</parent-name>
+            <remote-alias>Hour</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Temperature(蚓)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Temperature(蚓)]</local-name>
+            <parent-name>[Seoul bicycle rental dataset]</parent-name>
+            <remote-alias>Temperature(蚓)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Humidity(%)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Humidity(%)]</local-name>
+            <parent-name>[Seoul bicycle rental dataset]</parent-name>
+            <remote-alias>Humidity(%)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wind speed (m/s)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Wind speed (m/s)]</local-name>
+            <parent-name>[Seoul bicycle rental dataset]</parent-name>
+            <remote-alias>Wind speed (m/s)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Visibility (10m)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Visibility (10m)]</local-name>
+            <parent-name>[Seoul bicycle rental dataset]</parent-name>
+            <remote-alias>Visibility (10m)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dew point temperature(蚓)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Dew point temperature(蚓)]</local-name>
+            <parent-name>[Seoul bicycle rental dataset]</parent-name>
+            <remote-alias>Dew point temperature(蚓)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Solar Radiation (MJ/m2)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Solar Radiation (MJ/m2)]</local-name>
+            <parent-name>[Seoul bicycle rental dataset]</parent-name>
+            <remote-alias>Solar Radiation (MJ/m2)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rainfall(mm)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rainfall(mm)]</local-name>
+            <parent-name>[Seoul bicycle rental dataset]</parent-name>
+            <remote-alias>Rainfall(mm)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Snowfall (cm)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Snowfall (cm)]</local-name>
+            <parent-name>[Seoul bicycle rental dataset]</parent-name>
+            <remote-alias>Snowfall (cm)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Seasons</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Seasons]</local-name>
+            <parent-name>[Seoul bicycle rental dataset]</parent-name>
+            <remote-alias>Seasons</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Holiday</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Holiday]</local-name>
+            <parent-name>[Seoul bicycle rental dataset]</parent-name>
+            <remote-alias>Holiday</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Functioning Day</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Functioning Day]</local-name>
+            <parent-name>[Seoul bicycle rental dataset]</parent-name>
+            <remote-alias>Functioning Day</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='date' datatype-customized='true' name='[Date]' role='dimension' type='ordinal' />
+      <column caption='Seoul bicycle rental dataset' datatype='table' name='[__tableau_internal_object_id__].[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]' role='measure' type='quantitative' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Turki/AppData/Local/Temp/TableauTemp/#TableauTemp_0inm3ms1piupdi17oexo30hty1m6.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/15/2026 04:16:22 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table'>
+            <columns>
+              <column datatype='date' date-parse-format='dd/MM/yyyy' name='Date' />
+            </columns>
+          </relation>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Date</remote-name>
+              <remote-type>7</remote-type>
+              <local-name>[Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Seoul bicycle rental dataset</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rented Bike Count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Rented Bike Count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Rented Bike Count</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Seoul bicycle rental dataset</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1912</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hour</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Hour]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hour</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Seoul bicycle rental dataset</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Temperature(蚓)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Temperature(蚓)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Temperature(蚓)</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Seoul bicycle rental dataset</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>670</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Humidity(%)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Humidity(%)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Humidity(%)</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Seoul bicycle rental dataset</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>91</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Wind speed (m/s)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Wind speed (m/s)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Wind speed (m/s)</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Seoul bicycle rental dataset</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>64</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Visibility (10m)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Visibility (10m)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Visibility (10m)</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Seoul bicycle rental dataset</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1603</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Dew point temperature(蚓)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Dew point temperature(蚓)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Dew point temperature(蚓)</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Seoul bicycle rental dataset</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>670</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Solar Radiation (MJ/m2)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Solar Radiation (MJ/m2)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Solar Radiation (MJ/m2)</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Seoul bicycle rental dataset</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>439</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rainfall(mm)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Rainfall(mm)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Rainfall(mm)</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Seoul bicycle rental dataset</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Snowfall (cm)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Snowfall (cm)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Snowfall (cm)</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Seoul bicycle rental dataset</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>36</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Seasons</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Seasons]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Seasons</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Seoul bicycle rental dataset</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Holiday</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Holiday]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Holiday</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Seoul bicycle rental dataset</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Functioning Day</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Functioning Day]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Functioning Day</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Seoul bicycle rental dataset</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Saudi Arabia&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Seoul bicycle rental dataset' id='Seoul bicycle rental dataset_2DFDE69B0FA94000BCFE829E7B00E82F'>
+            <properties context=''>
+              <relation connection='excel-direct.18hovwo0568u8t1307jvs19221l2' name='Seoul bicycle rental dataset' table='[&apos;Seoul bicycle rental dataset$&apos;]' type='table'>
+                <columns gridOrigin='A1:N8761:no:A1:N8761:0' header='yes' outcome='2'>
+                  <column datatype='date' date-parse-format='dd/MM/yyyy' name='Date' ordinal='0' />
+                  <column datatype='integer' name='Rented Bike Count' ordinal='1' />
+                  <column datatype='integer' name='Hour' ordinal='2' />
+                  <column datatype='real' name='Temperature(蚓)' ordinal='3' />
+                  <column datatype='integer' name='Humidity(%)' ordinal='4' />
+                  <column datatype='real' name='Wind speed (m/s)' ordinal='5' />
+                  <column datatype='integer' name='Visibility (10m)' ordinal='6' />
+                  <column datatype='real' name='Dew point temperature(蚓)' ordinal='7' />
+                  <column datatype='real' name='Solar Radiation (MJ/m2)' ordinal='8' />
+                  <column datatype='real' name='Rainfall(mm)' ordinal='9' />
+                  <column datatype='real' name='Snowfall (cm)' ordinal='10' />
+                  <column datatype='string' name='Seasons' ordinal='11' />
+                  <column datatype='string' name='Holiday' ordinal='12' />
+                  <column datatype='string' name='Functioning Day' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table'>
+                <columns>
+                  <column datatype='date' date-parse-format='dd/MM/yyyy' name='Date' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{BEC869A6-81A8-4939-83E5-9329EC5BF38F}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Seoul bicycle rental dataset (_JqBwOEaS_a37dYNVftzmw_0b1c1cafa639423e9342b5f2640999f1_Seoul-bicycle-rental-dataset)' name='federated.1vcqrbj06mnbls191oa9x1nkmy6h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vcqrbj06mnbls191oa9x1nkmy6h'>
+            <column datatype='date' datatype-customized='true' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Rented Bike Count]' role='measure' type='quantitative' />
+            <column-instance column='[Rented Bike Count]' derivation='Sum' name='[sum:Rented Bike Count:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Weekday' name='[wd:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1vcqrbj06mnbls191oa9x1nkmy6h].[sum:Rented Bike Count:qk]</rows>
+        <cols>[federated.1vcqrbj06mnbls191oa9x1nkmy6h].[wd:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{03FE0150-0651-4A52-916A-7078ACF62E2E}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{97D450ED-DA20-4734-AEAB-1BC3DAEE3E5F}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vcqrbj06mnbls191oa9x1nkmy6h].[none:Date:nk]</field>
+            <field>[federated.1vcqrbj06mnbls191oa9x1nkmy6h].[yr:Date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0C793714-0A48-43EA-8ED2-75CF87FFEBC6}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
