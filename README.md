@@ -1,4 +1,4 @@
-# Google Advanced Data Analytics
+# Google Advanced Data Analytics professional Certificate
 
 Case studies, projects, and practice activities completed while working through Google's Advanced Data Analytics Professional Certificate (Coursera). Each end-of-course project follows a fictional client through the full analytics workflow: data cleaning, exploratory analysis, statistical testing, and predictive modeling.
 
